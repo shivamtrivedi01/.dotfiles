@@ -101,6 +101,8 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-export PATH="$PATH:/opt/nvim-linux64/bin"
+# alia sohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
+alias ls="ls -al"
+export PATH="$PATH:/opt/nvim-linux64/bin"
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
