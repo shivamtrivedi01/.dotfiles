@@ -103,6 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alia sohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
+alias v="nvim"
 alias ls="ls -al"
-export PATH="$PATH:/opt/nvim-linux64/bin"
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
